@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "databaseName": {
+            "value": "mysqldatabase34236"
+        },
+        "administratorLogin": {
+            "value": "mysqldbuser"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "mysqLocation": {
+            "value": "West Europe"
+        },
+        "serverName": {
+            "value": "ly-wp-mysqldbserver"
+        },
+        "skuCapacity": {
+            "value": 1
+        },
+        "skuFamily": {
+            "value": "Gen5"
+        },
+        "skuName": {
+            "value": "B_Gen5_1"
+        },
+        "skuSizeMB": {
+            "value": 5120
+        },
+        "skuTier": {
+            "value": "Basic"
+        },
+        "storageMB": {
+            "value": 5120
+        },
+        "backupRetentionDays": {
+            "value": 7
+        },
+        "geoRedundantBackup": {
+            "value": "Disabled"
+        },
+        "version": {
+            "value": "5.7"
+        },
+        "collation": {
+            "value": "utf8_general_ci"
+        },
+        "charset": {
+            "value": "utf8"
+        },
+        "name": {
+            "value": "ly-wp"
+        },
+        "hostingPlanName": {
+            "value": "LancentS1"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "serverFarmResourceGroup": {
+            "value": "LancentResource"
+        },
+        "subscriptionId": {
+            "value": "3eebcebf-5d9e-4d5d-bc59-50753ad2f974"
+        }
+    }
+}
